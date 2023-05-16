@@ -7,7 +7,7 @@ const Posts = props => {
 
     const posts = useSelector(getAllPosts);
 
-    return(
+    return (
         <div>
             <Row className="d-flex justify-content-around">{posts.map(post => <Post key={post.id} {...post} />)}</Row>
         </div>

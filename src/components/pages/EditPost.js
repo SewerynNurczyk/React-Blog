@@ -1,7 +1,10 @@
+import PostFormEdit from "../features/EditPostForm";
+
 const EditPost = () => {
     return (
         <div>
-            <p>Edit Post</p>
+            <p className="text-center" >EditPost</p>
+            <PostFormEdit />
         </div>
     );
 };
