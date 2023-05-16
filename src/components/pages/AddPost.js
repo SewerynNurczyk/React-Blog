@@ -3,8 +3,8 @@ import AddPostForm from "../features/AddPostForm";
 const AddPost = () => {
     return (
         <div>
-            <p>Add Post</p>
-            <AddPostForm />
+        <p className="text-center" >AddPost</p>
+        <AddPostForm />
         </div>
     );
 };
