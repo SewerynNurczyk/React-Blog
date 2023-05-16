@@ -51,10 +51,9 @@ const AddPostForm = () => {
                         <Form.Label>Content of the post</Form.Label>
                         <Form.Control as="textarea" rows={3} placeholder='Leave a comment here' value={content} onChange={e => setContent(e.target.value)} />
                     </Form.Group>
-                    <Link to={"/post/" + 'add'}>
-                <Button onClick={handleAdd} variant="btn btn-outline-secondary" type="submit">Add Post</Button>
-            </Link>
+                
                 </Form>
+                <Button onClick={handleAdd} variant="btn btn-outline-secondary" type="submit">Add Post</Button>
             </div>
            
         </div>
