@@ -39,8 +39,10 @@ const SinglePost = props => {
                     <Button onClick={handleShow} variant="btn btn-outline-danger">Delete</Button>
                 </div>
             </div>
-            <p><b>Author: </b>{postData.author} <br /><b>Published: </b>{postData.publishedDate}</p>
-            <p><b>Description: </b>{postData.shortDescription}</p>
+            <p><b>Author: </b>{postData.author} <br />
+            <b>Published: </b>{postData.publishedDate}</p>
+            <p dangerouslySetInnerHTML={{ __html: postData.shortDescription }} ></p>
+            
 
             <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
