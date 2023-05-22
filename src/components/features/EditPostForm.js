@@ -25,7 +25,8 @@ const PostFormEdit = () => {
                 publishedDate={postData.publishedDate}
                 title={postData.title}
                 shortDescription={postData.shortDescription}
-                contentOfThePost={postData.contentOfThePost} />
+                contentOfThePost={postData.contentOfThePost}
+                category={postData.category} />
         </div>
 
     );

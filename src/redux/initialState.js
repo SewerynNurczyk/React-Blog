@@ -6,7 +6,8 @@ const initialState = {
       shortDescription: 'Short description of the article...',
       content: 'Main content of the article',
       publishedDate: '22-02-2022',
-      author: 'Sewi Nurczyk'
+      author: 'Sewi Nurczyk',
+      category: 'Sport'
     },
     {
       id: '2',
@@ -14,7 +15,8 @@ const initialState = {
       shortDescription: 'Short description of the article...',
       content: 'Main content of the article',
       publishedDate: '13-02-2012',
-      author: 'Seweryn Nurczyk'
+      author: 'Seweryn Nurczyk',
+      category: 'News'
     },
     {
       id: '3',
@@ -22,8 +24,14 @@ const initialState = {
       shortDescription: 'Short description of the article...',
       content: 'Main content of the article',
       publishedDate: '01-04-2026',
-      author: 'Severius Nurczyk'
+      author: 'Severius Nurczyk',
+      category: 'Movies'
     }
+  ],
+  categories: [
+    'Sport',
+    'News',
+    'Movies'
   ]
 };
 

@@ -11,7 +11,9 @@ const Post = props => {
             <Card.Text>
               <p><b>Author: </b>{props.author}
               <br/><b>Published: </b>{props.publishedDate}</p>
+              <br/><b>Category: </b>{props.category}
               <p dangerouslySetInnerHTML={{ __html: props.shortDescription }} ></p>
+              
             </Card.Text>
             <Link key={props.id} to={"/post/" + props.id}>
               <Button variant="primary">Read more</Button>

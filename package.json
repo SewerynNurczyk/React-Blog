@@ -21,6 +21,7 @@
     "sass": "1.43.4",
     "shortid": "^2.2.16",
     "stop": "^3.1.0",
+    "strman.tolowercase": "^2.0.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

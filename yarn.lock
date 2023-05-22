@@ -9188,6 +9188,11 @@ strip-json-comments@^3.1.0, strip-json-comments@^3.1.1:
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-3.1.1.tgz#31f1281b3832630434831c310c01cccda8cbe006"
   integrity sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==
 
+strman.tolowercase@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/strman.tolowercase/-/strman.tolowercase-2.0.0.tgz#9a033e3d877c6ba5114e349af5d3938adffcfdd7"
+  integrity sha512-WmMHAcpO0v5yoZh7i+2KvYElUGZIoGpVOw9wTfNAkJ5rcxQ6z7ostYnNTJqOOi1Hb1q1UJ0RnFTq+WgQH3rmsA==
+
 style-loader@^3.3.1:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/style-loader/-/style-loader-3.3.2.tgz#eaebca714d9e462c19aa1e3599057bc363924899"
